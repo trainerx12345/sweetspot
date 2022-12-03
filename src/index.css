@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('./fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype'),         
+       url('./fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),          
+       url('./fonts/static/Montserrat-Thin.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-ExtraLight.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-Light.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-Regular.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-Medium.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-SemiBold.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-Bold.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-ExtraBold.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-Black.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-ThinItalic.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-ExtraLightItalic.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-LightItalic.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-Italic.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-MediumItalic.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-SemiBoldItalic.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-BoldItalic.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-ExtraBoldItalic.ttf') format('truetype'),
+       url('./fonts/static/Montserrat-BlackItalic.ttf') format('truetype')    
+}
+@font-face {
+  font-family: 'town-50-chic-medium';
+  src: url("./fonts/Town50Chic.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'town-50-chic-medium';
+  src: url('./fonts/town-50-chic-medium.ttf') format('tff');
+}
+*,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* width: 100vw; */
+}
+
+code {
+  font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+[data-reach-dialog-content] {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 8px;
+}
