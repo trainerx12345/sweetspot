@@ -1,5 +1,4 @@
 {
-  "homepage": "https://sweetspot-trainerx12345.vercel.app/",
   "name": "sweetspot",
   "version": "0.1.0",
   "private": true,
@@ -49,8 +48,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
